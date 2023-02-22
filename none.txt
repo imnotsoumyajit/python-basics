@@ -1,0 +1,1 @@
+'None' is a object that represents the absence of a value
