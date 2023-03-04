@@ -5,7 +5,7 @@
 # nums.count()#to see no of occ of an item
 # nums.index()#to see the first occ of an item
 # print(nums[0])
-# try to store the values of the touple in variables, it makes everything clean
+# try to store the values of the tuple in variables, it makes everything clean
 coordinates=(1,2,3)
 # we can 
 # x=coordinates[0]

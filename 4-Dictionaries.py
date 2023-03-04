@@ -29,9 +29,30 @@ nums={
     "9":"Nine",
     "0":"Zero",
 }
-input=input("Enter the Number : ")
-output=""
-for i in input:
-    output+= nums.get(i,"?") + " "
-print(output)
+print(nums)
+# to access the value
+# method 1
+x=nums["0"]
+print(x)
+# method 2
+y=nums.get("1")
+print(y)
+# to update the value
+nums["0"]="ZeroUpdated"
+print(nums.get("0"))
+# to update the dictionary
+nums.update({"1":"OneUpdated"})
+print(nums)
+# Add values to the dictionary
+nums["new"]="SomethingNew"
+print(nums)
+# remove values from the dictionary/list/tuples
+nums.pop("new")
+print(nums)
+
+# input=input("Enter the Number : ")
+# output=""
+# for i in input:
+#     output+= nums.get(i,"?") + " "
+# print(output)
     
