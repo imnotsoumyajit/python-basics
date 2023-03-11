@@ -7,4 +7,6 @@ numbers=[1,2,3,4,5]
 # while i<len(numbers):
 #     print(numbers[i]);
 #     i=i+1;
-
+n=5
+for i in range(n):
+    print (i)
